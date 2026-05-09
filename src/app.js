@@ -11,6 +11,8 @@ app.use(cors({
   origin: [
     'http://localhost:5173',
     'https://theabhilasha.in',
+    'https://the-abhilasha.web.app',
+    'https://the-abhilasha.firebaseapp.com',
     process.env.FRONTEND_URL,
   ].filter(Boolean),
   credentials: true,
